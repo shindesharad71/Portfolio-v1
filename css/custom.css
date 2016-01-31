@@ -1,0 +1,635 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:700|Roboto);
+@media (max-width:499px) {
+    .carousel-caption {
+        z-index: 1;
+        background-color: transparent;
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+        opacity: 0.9;
+        padding: 0px;
+    }
+    .carousel-caption h1 {
+        font-size: 19px;
+    }
+}
+
+.career-title {
+    color: #f2f2f2;
+    background-color: #303030;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+
+body {
+    padding-top: 55px;
+    background-color: #E1E1E1;
+}
+
+.main-quote {
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    background-color: #009688;
+    color: #fff;
+}
+
+.headingh1 {
+    padding-top: 70px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: overline;
+    text-transform: uppercase;
+}
+
+.left-headingh3 {
+    padding-bottom: 25px;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: overline;
+}
+
+.left-headingh3-with {
+    padding-bottom: 25px;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: overline;
+    text-transform: uppercase;
+}
+
+.headingh3 {
+    padding-bottom: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: overline;
+    text-transform: uppercase;
+}
+
+.panel-heading {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+.panel-heading a {
+    text-decoration: none;
+}
+
+.panel-heading small {
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+}
+
+.panel-heading > small > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.autobiography {
+    background-color: #ccc;
+}
+
+.main-quote small {
+    color: #fff;
+}
+
+.navfont {
+    font-family: font-family: 'Roboto Slab', serif;
+}
+
+.menutitle {
+    font-family: font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    color: #fff;
+}
+
+blockquote {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-left-color: #337AB7;
+}
+
+.blockquote-reverse {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-right-color: #337AB7;
+}
+
+
+/******************************* TABLE STYLINGS  *******************************************/
+
+table {
+    border: 2px solid #fff;
+    box-shadow: 2px;
+}
+
+table td {
+    padding: 7px;
+    padding: 15px;
+    text-align: left;
+    border: 2px solid #fff;
+    margin-left: 5px;
+}
+
+table tr {
+    padding: 5px;
+    border: 2px solid #fff;
+}
+
+table tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+table tr:nth-child(even) {
+    background-color: #fff;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+
+/* Carousel base class */
+
+.carousel-caption {
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.75);
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    opacity: 0.9;
+}
+
+.carousel-indicators {
+    display: none;
+}
+
+
+/* Container Stylings goes here */
+
+
+/******************************* first  *******************************************/
+
+.first {
+    margin: 45px auto;
+    text-align: center;
+}
+
+.first a {
+    text-decoration: none;
+    color: #333;
+}
+
+.col-md-3 {
+    padding: 25px 5px 25px 5px;
+}
+
+.col-md-3:hover {
+    background-color: #009688;
+    color: #fff;
+    opacity: 0.9;
+    padding: 25px 5px 25px 5px;
+}
+
+.first h3 {
+    margin: 15px auto;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+}
+
+.first h4 {
+    margin: 25px auto;
+    font-weight: normal;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+/******************************* two  *******************************************/
+
+.two {
+    margin: 20px auto;
+}
+
+.two h4 {
+    word-spacing: 1px;
+    line-height: 1.9;
+    margin: auto 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/******************************* three  *******************************************/
+
+.three {
+    margin: 20px auto;
+    word-spacing: 1px;
+    line-height: 1.9;
+}
+
+.three h1 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-family: 'Roboto Slab', serif;
+    text-decoration-color: pink;
+    text-decoration: overline;
+    text-transform: uppercase;
+}
+
+.three h3 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.three p {
+    word-spacing: 1px;
+    line-height: 1.9;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/******************************* four  *******************************************/
+
+.four {
+    margin-top: 20px;
+    padding-left: 35px;
+    background-color: #303030;
+    border-top: 7px solid #009688;
+}
+
+.four h4 {
+    padding: 35px auto;
+    color: #fafafa;
+    font-family: 'Roboto Slab', serif;
+    word-spacing: 1px;
+    line-height: 1.9;
+}
+
+.four p {
+    color: #fafafa;
+    padding-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 1px;
+    line-height: 1.9;
+}
+
+.four a {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.four a:hover {
+    text-decoration: underline;
+}
+
+.icons {
+    color: #fff;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.contact-icons {
+    color: #303030;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+
+/******************************* footer  *******************************************/
+
+.footer1 {
+    padding: 20px;
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 15px;
+}
+
+
+/************************************************************************************
+******************************** ANIMATIONS ******************************************/
+
+
+/* Hang */
+
+@-webkit-keyframes hvr-hang {
+    0% {
+        -webkit-transform: translateY(8px);
+        transform: translateY(8px);
+    }
+    50% {
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px);
+    }
+    100% {
+        -webkit-transform: translateY(8px);
+        transform: translateY(8px);
+    }
+}
+
+@keyframes hvr-hang {
+    0% {
+        -webkit-transform: translateY(8px);
+        transform: translateY(8px);
+    }
+    50% {
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px);
+    }
+    100% {
+        -webkit-transform: translateY(8px);
+        transform: translateY(8px);
+    }
+}
+
+@-webkit-keyframes hvr-hang-sink {
+    100% {
+        -webkit-transform: translateY(8px);
+        transform: translateY(8px);
+    }
+}
+
+@keyframes hvr-hang-sink {
+    100% {
+        -webkit-transform: translateY(8px);
+        transform: translateY(8px);
+    }
+}
+
+.hvr-hang {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.hvr-hang:hover,
+.hvr-hang:focus,
+.hvr-hang:active {
+    -webkit-animation-name: hvr-hang-sink, hvr-hang;
+    animation-name: hvr-hang-sink, hvr-hang;
+    -webkit-animation-duration: .3s, 1.5s;
+    animation-duration: .3s, 1.5s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
+}
+
+
+/* Shutter In Horizontal */
+
+.hvr-shutter-in-horizontal {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    background: #2098d1;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.hvr-shutter-in-horizontal:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #e1e1e1;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-shutter-in-horizontal:hover,
+.hvr-shutter-in-horizontal:focus,
+.hvr-shutter-in-horizontal:active {
+    color: white;
+}
+
+.hvr-shutter-in-horizontal:hover:before,
+.hvr-shutter-in-horizontal:focus:before,
+.hvr-shutter-in-horizontal:active:before {
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+}
+
+
+/* Wobble To Top Right */
+
+@-webkit-keyframes hvr-wobble-to-top-right {
+    16.65% {
+        -webkit-transform: translate(8px, -8px);
+        transform: translate(8px, -8px);
+    }
+    33.3% {
+        -webkit-transform: translate(-6px, 6px);
+        transform: translate(-6px, 6px);
+    }
+    49.95% {
+        -webkit-transform: translate(4px, -4px);
+        transform: translate(4px, -4px);
+    }
+    66.6% {
+        -webkit-transform: translate(-2px, 2px);
+        transform: translate(-2px, 2px);
+    }
+    83.25% {
+        -webkit-transform: translate(1px, -1px);
+        transform: translate(1px, -1px);
+    }
+    100% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes hvr-wobble-to-top-right {
+    16.65% {
+        -webkit-transform: translate(8px, -8px);
+        transform: translate(8px, -8px);
+    }
+    33.3% {
+        -webkit-transform: translate(-6px, 6px);
+        transform: translate(-6px, 6px);
+    }
+    49.95% {
+        -webkit-transform: translate(4px, -4px);
+        transform: translate(4px, -4px);
+    }
+    66.6% {
+        -webkit-transform: translate(-2px, 2px);
+        transform: translate(-2px, 2px);
+    }
+    83.25% {
+        -webkit-transform: translate(1px, -1px);
+        transform: translate(1px, -1px);
+    }
+    100% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+}
+
+.hvr-wobble-to-top-right {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.hvr-wobble-to-top-right:hover,
+.hvr-wobble-to-top-right:focus,
+.hvr-wobble-to-top-right:active {
+    -webkit-animation-name: hvr-wobble-to-top-right;
+    animation-name: hvr-wobble-to-top-right;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+
+/* Bob */
+
+@-webkit-keyframes hvr-bob {
+    0% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+    50% {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+    }
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+}
+
+@keyframes hvr-bob {
+    0% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+    50% {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px);
+    }
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+}
+
+@-webkit-keyframes hvr-bob-float {
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+}
+
+@keyframes hvr-bob-float {
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+}
+
+.hvr-bob {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.hvr-bob:hover,
+.hvr-bob:focus,
+.hvr-bob:active {
+    -webkit-animation-name: hvr-bob-float, hvr-bob;
+    animation-name: hvr-bob-float, hvr-bob;
+    -webkit-animation-duration: .3s, 1.5s;
+    animation-duration: .3s, 1.5s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
+}
+
+
+/************************************** Loader CSS ********************************************/
+
+.pace {
+    -webkit-pointer-events: none;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.pace-inactive {
+    display: none;
+}
+
+.pace .pace-progress {
+    background: #F44336;
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    height: 7px;
+}
