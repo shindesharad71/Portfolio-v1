@@ -25,4 +25,4 @@
 * Image Slider
 * Google Font
 
-####### README updated on 3 Feb 2016
+###### README updated on 3 Feb 2016
